@@ -78,6 +78,8 @@ export const OLD_DIR = 'old';
  * error, so this list going stale fails the build rather than the page.
  */
 export const EXTRA_DATA = [
+    // Fetched by performance-alerts.js, outside the HTML asset scanner.
+    'performance-alerts-source.json',
     'README.md',
     'docs/CLI.md',
     'docs/DEPLOY.md',

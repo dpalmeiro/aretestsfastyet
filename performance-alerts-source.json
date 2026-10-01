@@ -1,0 +1,17 @@
+{
+  "query_id": 127887,
+  "query_url": "https://sql.telemetry.mozilla.org/queries/127887",
+  "results_url": "https://sql.telemetry.mozilla.org/api/queries/127887/results.json?api_key=NwMRBaDDKmfnCcnXmcZbJt0Bw8haOT9USrTFat3f",
+  "window_days": 365,
+  "window_basis": "alert.created",
+  "alert_filter": "JavaScript uses regression_bug_ids per job mapping",
+  "refresh": "manual; stmo-cli execute 127887",
+  "attribution": "exact job/repository labels mapped using signatures from up to three latest successful runs within 21 days; retired signatures and historical worker-pool assignments are not inferred",
+  "schema_version": 3,
+  "deduplication": "union bug_ids and fixed_bug_ids when aggregating jobs",
+  "fixed_definition": "distinct linked bug with at least one non-invalid alert whose effective summary is Fixed (7) or linked cached Bugzilla bug is RESOLVED/VERIFIED/CLOSED with resolution FIXED or DUPLICATE; patch attachments are not counted",
+  "resolutions_query_id": 128286,
+  "resolutions_results_url": "https://sql.telemetry.mozilla.org/api/queries/128286/results.json?api_key=6QHGJletDNYiwIl8M0F1fN3GhZynhqFnb1Z0MZ8D",
+  "resolutions_window_basis": "Bugzilla creation_time in rolling past 365 days",
+  "resolutions_refresh": "daily at 07:15 UTC"
+}

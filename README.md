@@ -59,6 +59,8 @@ ones:
   **XPCShell Jobs** (`xpcshell-jobs.html`), **Manifest Runtimes**
   (`manifests.html`), **Worker Pools** (`workers.html`) — job- and
   infrastructure-level timing views.
+- **Performance Test Time** (`performance-tests.html`) — daily worker-hours by
+  worker pool and job configuration, with date and project filters.
 
 A number of older or more specialized dashboards (Perma-Fails, Variant Impact,
 Errors & Warnings, Resource Usage, and others) are listed under "Less
